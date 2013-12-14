@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Luckyduck_Apiexample>
+            <version>0.1.0</version>
+        </Luckyduck_Apiexample>
+    </modules>
+
+    <global>
+        <models>
+            <apiexample>
+                <class>Luckyduck_Apiexample_Model</class>
+            </apiexample>
+        </models>
+    </global>
+</config>

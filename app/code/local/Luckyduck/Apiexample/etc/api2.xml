@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<config>
+    <api2>
+        <resource_groups>
+            <apiexample translate="title" module="apiexample">
+                <title>APIExample</title>
+                <sort_order>10</sort_order>
+            </apiexample>
+        </resource_groups>
+
+        <resources>
+            <apiexample translate="title" module="apiexample">
+                <group>apiexample</group>
+                <model>apiexample/api2_featuredproduct</model>
+                <title>API extension sample</title>
+                <sort_order>10</sort_order>
+
+                <privileges>
+                    <guest>
+                        <retrieve>1</retrieve>
+                    </guest>
+                </privileges>
+
+                <attributes translate="title" module="apiexample">
+                    <entity_id>Product ID</entity_id>
+                    <name>Name</name>
+                    <price>Preis</price>
+                    <sku>SKU</sku>
+                </attributes>
+
+                <routes>
+                    <route>
+                        <route>/apiexample/featuredproduct</route>
+                        <action_type>collection</action_type>
+                    </route>
+                </routes>
+
+                <versions>1</versions>
+            </apiexample>
+        </resources>
+    </api2>
+</config>

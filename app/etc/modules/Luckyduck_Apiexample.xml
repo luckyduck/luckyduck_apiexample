@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Luckyduck_Apiexample>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Api2 />
+            </depends>
+        </Luckyduck_Apiexample>
+    </modules>
+</config>
